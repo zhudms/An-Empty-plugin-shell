@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova.lerong.camerawithclip" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>cameraWithClip</name>
+    <js-module name="cameraWithClip" src="www/cameraWithClip.js">
+        <clobbers target="cordova.plugins.cameraWithClip" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="cameraWithClip">
+                <param name="ios-package" value="cameraWithClip" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/cameraWithClip.m" />
+    </platform>
+</plugin>
