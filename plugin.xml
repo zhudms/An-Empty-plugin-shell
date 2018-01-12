@@ -12,6 +12,53 @@
                 <param name="ios-package" value="cameraWithClip" />
             </feature>
         </config-file>
+
         <source-file src="src/ios/cameraWithClip.m" />
+        <header-file src="src/ios/PureCamera/cameraCancelDelegate.h" />
+
+
+        <header-file src="src/ios/PureCamera/LLSimpleCamera.h" />
+        <source-file src="src/ios/PureCamera/LLSimpleCamera.m" />
+
+        <header-file src="src/ios/PureCamera/LLSimpleCamera+Helper.h" />
+        <source-file src="src/ios/PureCamera/LLSimpleCamera+Helper.m" />
+
+        <header-file src="src/ios/PureCamera/PureCamera.h" />
+        <source-file src="src/ios/PureCamera/PureCamera.m" />
+
+        <header-file src="src/ios/PureCamera/TOActivityCroppedImageProvider.h" />
+        <source-file src="src/ios/PureCamera/TOActivityCroppedImageProvider.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropOverlayView.h" />
+        <source-file src="src/ios/PureCamera/TOCropOverlayView.m" />
+
+        <header-file src="src/ios/PureCamera/TOCroppedImageAttributes.h" />
+        <source-file src="src/ios/PureCamera/TOCroppedImageAttributes.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropScrollView.h" />
+        <source-file src="src/ios/PureCamera/TOCropScrollView.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropToolbar.h" />
+        <source-file src="src/ios/PureCamera/TOCropToolbar.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropView.h" />
+        <source-file src="src/ios/PureCamera/TOCropView.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropViewController.h" />
+        <source-file src="src/ios/PureCamera/TOCropViewController.m" />
+
+        <header-file src="src/ios/PureCamera/TOCropViewControllerTransitioning.h" />
+        <source-file src="src/ios/PureCamera/TOCropViewControllerTransitioning.m" />
+
+        <header-file src="src/ios/PureCamera/UIImage+CropRotate.h" />
+        <source-file src="src/ios/PureCamera/UIImage+CropRotate.m" />
+
+        <header-file src="src/ios/PureCamera/UIImage+FixOrientation.h" />
+        <source-file src="src/ios/PureCamera/UIImage+FixOrientation.m" />
+
+
+        <resource-file src="src/ios/PureCamera/PureCamera.bundle" />
+        <resource-file src="src/ios/PureCamera/TOCropViewControllerLocalizable.strings" />
+
     </platform>
 </plugin>
